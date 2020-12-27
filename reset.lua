@@ -5,13 +5,9 @@ function enablemultgui()
 local x,y = 647.44,85
 repeat wait() until iswindowactive()
 mousemoveabs(x,y)
-mousemoveabs(x,y)
-mousemoveabs(x,y)
 wait()
 mousemoveabs(x,y)
-mousemoveabs(x,y)
 mouse1click()
-mousemoveabs(x,y)
 mousemoveabs(x,y)
 wait(0.1)
 return getvisible()
@@ -30,4 +26,5 @@ function reset()
 end
 while _G.reset do
 reset()
+wait()
 end
